@@ -17,52 +17,52 @@ class Master:
         os.system("apt upgrade -y")
 
     def btn3():
-        os.system("")
+        os.system("apt install snapd -y")
 
     def btn4():
-        os.system("")
+        os.system("snap install snap-store")
     
     def btn5():
-        os.system("")
+        os.system("snap install spotify")
 
     def btn6():
-        os.system("")
+        os.system("snap install audacity")
 
     def btn7():
-        os.system("")
+        os.system("snap install VLC")
 
     def btn8():
-        os.system("")
+        os.system("snap install obs-studio")
 
     def btn9():
-        os.system("")
+        os.system("apt install simplescreenrecorder")
 
     def btn10():
-        os.system("")
+        os.system("apt install libreoffice")
     
     def btn11():
-        os.system("")
+        os.system("snap install teams")
 
     def btn12():
-        os.system("")
+        os.system("apt install thunderbird")
 
     def btn13():
-        os.system("")
+        os.system("snap install code --classic")
     
     def btn14():
-        os.system("")
+        os.system("snap install gimp")
 
     def btn15():
-        os.system("")
+        os.system("snap install telegram-desktop")
     
     def btn16():
-        os.system("")
+        os.system("snap install discord")
     
     def btn17():
-        os.system("")
+        os.system("snap install brave")
     
-
-
+    def btn18():
+        os.system("reboot")
 
 
 
@@ -90,87 +90,111 @@ class Buttons:
 
     Button4 = Button (
         win,
-        text="",
+        text="Snap-Store",
         command=Master.btn4
 
     )
 
     Button5 = Button (
         win, 
-        text="",
+        text="Spotify",
         command=Master.btn5
 
     )
 
     Button6 = Button (
         win,
-        text="",
+        text="Audacity",
         command=Master.btn6
 
     )
 
     Button7 = Button (
         win,
-        text="",
+        text="VLC",
         command=Master.btn7
 
     )
 
     Button8 = Button (
         win,
-        text="",
+        text="OBS",
         command=Master.btn8
 
     )
 
     Button9 = Button (
         win,
-        text="",
+        text="SSR",
         command=Master.btn9
 
     )
     
     Button10 = Button (
         win,
-        text="",
+        text="Office",
         command=Master.btn10
 
     )
 
     Button11 = Button (
         win, 
-        text="",
+        text="Teams",
         command=Master.btn11
 
     )
 
     Button12 = Button (
         win,
-        text="",
+        text="E-Mail",
         command=Master.btn12
 
     )
 
     Button13 = Button (
         win,
-        text="",
+        text="VScode",
         command=Master.btn13
 
     )
 
     Button14 = Button (
         win,
-        text="",
+        text="GIMP",
         command=Master.btn14
 
     )
 
     Button15 = Button (
         win,
-        text="",
+        text="Telegram",
         command=Master.btn15
 
     )
+
+    Button16 = Button (
+        win,
+        text="Discord",
+        command=Master.btn16
+
+    )
+
+    Button17 = Button (
+        win,
+        text="Brave",
+        command=Master.btn17
+
+    )
+
+    Button18 = Button (
+        win,
+        text="Reboot",
+        command=Master.btn18
+
+    )
+
+
+
 class Packs:
     Buttons.Button1.grid()
 
@@ -201,5 +225,11 @@ class Packs:
     Buttons.Button14.grid()
     
     Buttons.Button15.grid()
+
+    Buttons.Button16.grid()
+
+    Buttons.Button17.grid()
+
+    Buttons.Button18.grid()
 
 win.mainloop()
