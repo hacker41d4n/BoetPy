@@ -11,18 +11,21 @@ more easier to install my apps.
 ```
 python3
 git
-
+Debian based Linux
+pip3
 
 ```
+
 
 
 ## Instructions:
 
-### Pip3 Install:
-First you need to install pip3
+### Clone BoetPy:
 
 ```
-sudo apt install python3-pip
+sudo git clone https://github.com/hacker41d4n/BoetPy
+cd BoetPy
+ls
 ```
 
 
