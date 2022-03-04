@@ -13,3 +13,12 @@ python3
 git
 ```
 
+## Instructions:
+
+First you need to install pip3
+
+```
+sudo apt install python3-pip
+```
+
+
