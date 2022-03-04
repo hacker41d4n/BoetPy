@@ -13,8 +13,10 @@ python3
 git
 ```
 
+
 ## Instructions:
 
+### Pip3 Install:
 First you need to install pip3
 
 ```
