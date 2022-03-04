@@ -66,6 +66,7 @@ class Master:
 
 
 
+
 class Buttons:
     Button1 = Button (
         win,
@@ -196,40 +197,40 @@ class Buttons:
 
 
 class Packs:
-    Buttons.Button1.grid()
+    Buttons.Button1.grid(row=0, column=1,)
 
-    Buttons.Button2.grid()
+    Buttons.Button2.grid(row=0, column=2)
 
-    Buttons.Button3.grid()
+    Buttons.Button3.grid(row=0, column=3)
 
-    Buttons.Button4.grid()
+    Buttons.Button4.grid(row=0, column=4)
 
-    Buttons.Button5.grid()
+    Buttons.Button5.grid(row=0, column=5)
 
-    Buttons.Button6.grid()
+    Buttons.Button6.grid(row=1, column=1)
 
-    Buttons.Button7.grid()
+    Buttons.Button7.grid(row=1, column=2)
 
-    Buttons.Button8.grid()
+    Buttons.Button8.grid(row=1, column=3)
 
-    Buttons.Button9.grid()
+    Buttons.Button9.grid(row=1, column=4)
 
-    Buttons.Button10.grid()
+    Buttons.Button10.grid(row=1, column=5)
 
-    Buttons.Button11.grid()
+    Buttons.Button11.grid(row=2, column=1)
 
-    Buttons.Button12.grid()
+    Buttons.Button12.grid(row=2, column=2)
 
-    Buttons.Button13.grid()
+    Buttons.Button13.grid(row=2, column=3)
 
-    Buttons.Button14.grid()
+    Buttons.Button14.grid(row=2, column=4)
     
-    Buttons.Button15.grid()
+    Buttons.Button15.grid(row=2, column=5)
 
-    Buttons.Button16.grid()
+    Buttons.Button16.grid(row=3, column=1)
 
-    Buttons.Button17.grid()
+    Buttons.Button17.grid(row=3, column=2)
 
-    Buttons.Button18.grid()
+    Buttons.Button18.grid(row=3, column=3)
 
 win.mainloop()
