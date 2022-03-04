@@ -12,4 +12,3 @@ more easier to install my apps.
 python3
 git
 ```
-
