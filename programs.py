@@ -64,6 +64,9 @@ class Master:
     def btn18():
         os.system("reboot")
 
+    def home():
+        win.destroy()
+        import BoetPy
 
 
 
@@ -194,7 +197,14 @@ class Buttons:
 
     )
 
+    Home1 = Button (
+        win,
+        text="Home",
+        width=20,
+        height=3,
+        command=Master.home
 
+    )
 
 class Packs:
     Buttons.Button1.grid(row=0, column=1,)
@@ -232,5 +242,7 @@ class Packs:
     Buttons.Button17.grid(row=3, column=2)
 
     Buttons.Button18.grid(row=3, column=3)
+
+    Buttons.Home1.grid(row=5, column=3)
 
 win.mainloop()
